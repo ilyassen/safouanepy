@@ -9,30 +9,31 @@ class Champion:
         self.role = role 
         self.power = power
 
-    def get_gender(self):
-        return self.gender
+    # def get_gender(self):
+    #     return self.gender
 
-    def get_place(self):
-        return self.place
+    # def get_place(self):
+    #     return self.place
     
-    def get_year(self):
-        return self.year
+    # def get_year(self):
+    #     return self.year
     
-    def get_role(self):
-        return self.role
+    # def get_role(self):
+    #     return self.role
     
-    def get_power(self):
-        return self.power
-    def get_name(self):
-        return self.name
+    # def get_power(self):
+    #     return self.power
+    
+    # def get_name(self):
+    #     return self.name
 
     def display(self):
-        print("Name: " + self.get_name())
-        print("Gender : " + self.get_gender())
-        print("place : " + self.get_place())
-        print("year : " + self.get_year())
-        print("role : " + self.get_role())
-        print("power : " +self.get_power())
+        print("Name: " + self.name)
+        print("Gender : " + self.gender)
+        print("place : " + self.place)
+        print("year : " + self.year)
+        print("role : " + self.role)
+        print("power : " +self.power)
 
 champion1 = Champion("Zilean","Male","Shhurima","2009","mid/support","VERY OP")
 champion2 = Champion("Warwick","who knows","Zhaun","2009","Top/jungle","VERY tilti")
