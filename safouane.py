@@ -1,3 +1,3 @@
-text = 4 * 'un' + 'ium'
+text = 4 * 'pit' + 'ium'
 
 print(text)
